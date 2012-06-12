@@ -80,22 +80,17 @@ projects[omega_d7mu][subdir] = "custom"
 projects[omega_d7mu][download][type] = "git"
 projects[omega_d7mu][download_url] = "https://github.com/moatmedia/omega_d7mu.git"
 
-
   
 ; Libraries
 ; ---------
 libraries[tinymce][type] = "libraries"
 libraries[tinymce][download][type] = "file"
 libraries[tinymce][download][url] = "http://www.tinymce.com/track.php?url=http%3A%2F%2Fgithub.com%2Fdownloads%2Ftinymce%2Ftinymce%2Ftinymce_3.5.zip"
+
 libraries[ckeditor][type] = "libraries"
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
+
 libraries[profiler][type] = "libraries"
 libraries[profiler][download][type] = "get"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
-libraries[editarea][type] = "libraries"
-libraries[editarea][download][type] = "file"
-libraries[editarea][download][url] = "http://downloads.sourceforge.net/project/editarea/EditArea/EditArea%200.8.2/editarea_0_8_2.zip"
-libraries[jquery.cycle][type] = "libraries"
-libraries[jquery.cycle][download][type] = "file"
-libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
