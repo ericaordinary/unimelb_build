@@ -76,9 +76,9 @@ projects[tao][version] = "3.0-beta4"
 projects[tao][subdir] = "contrib"
 
 projects[omega_d7mu][type] = "theme"
-projects[omega_d7mu][subdir] = "custom"
+projects[omega_d7mu][subdir] = "moat"
 projects[omega_d7mu][download][type] = "git"
-projects[omega_d7mu][download_url] = "https://github.com/moatmedia/omega_d7mu.git"
+projects[omega_d7mu][download][url] = "https://github.com/moatmedia/omega_d7mu.git"
 
   
 ; Libraries
