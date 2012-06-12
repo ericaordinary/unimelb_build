@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file
+ * Code for the moat_banner feature.
+ */
+
+include_once 'moat_banner.features.inc';
+dpm(drupal_get_path('module', 'moat_banner'));
+
+drupal_add_css(drupal_get_path('module', 'moat_banner') . '/css/moat-banner.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE));
+drupal_add_css(drupal_get_path('module', 'moat_banner') . '/css/banner-typography.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE));

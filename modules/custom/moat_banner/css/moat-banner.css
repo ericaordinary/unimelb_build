@@ -1,0 +1,65 @@
+/**------------------------------------------------------------------
+	*
+	* Default CSS for the banner layout.  You should override this in
+	* your custom theme.
+	*
+	-----------------------------------------------------------------*/
+
+/**------------------------------------------------------------------
+	* Basic positioning.
+	 -----------------------------------------------------------------*/
+#block-views-moat-banner-block,
+#block-views-moat-banner-block .views-field-field-background-colour {
+	position:relative;
+}
+
+#block-views-moat-banner-block .views-field-field-text {
+	position:absolute;
+	top:0;
+}
+
+#block-views-moat-banner-block .views-field-field-link {
+	position:absolute;
+	bottom:0;
+}
+
+#block-views-moat-banner-block .views-field-field-text,
+#block-views-moat-banner-block .views-field-field-link {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+/**------------------------------------------------------------------
+	* Block heights: Change in your theme to the desired height of your
+	* slideshow block.
+	 -----------------------------------------------------------------*/
+#block-views-moat-banner-block,
+#block-views-moat-banner-block .views-field-field-background-colour,
+#block-views-moat-banner-block .jquery_colorpicker_color_display {
+	height:400px;
+}
+
+#block-views-moat-banner-block .views_slideshow_cycle_slide {
+	height:400px !important; /** Same as full block height: Overrides jQuery height. */
+}
+
+#block-views-moat-banner-block .views-field-field-background-colour {
+	top:-400px; /** Negative height of full block. */
+}
+
+
+/**------------------------------------------------------------------
+	* Background & text block widths.
+	 -----------------------------------------------------------------*/
+#block-views-moat-banner-block .views-field-field-background-colour {
+	width:400px;
+	opacity:.7;
+}
+
+#block-views-moat-banner-block .views-field-field-text,
+#block-views-moat-banner-block .views-field-field-link {
+	padding-left:20px;
+	padding-right:20px;
+	width:360px; /** Background block width less left and right padding. */
+}

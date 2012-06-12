@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Moat Basic Pages feature.
+ */
+
+include_once 'moat_basic_pages.features.inc';

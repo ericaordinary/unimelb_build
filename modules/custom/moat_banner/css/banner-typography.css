@@ -1,0 +1,12 @@
+/**------------------------------------------------------------------
+	*
+	* This CSS file defines the typography styles for the banner node
+  *	type WYSIWYG and display.  You can add your own custom classes at
+	* admin/config/content/wysiwyg/moat_banner/edit.
+	*
+	-----------------------------------------------------------------*/
+
+.test-class {
+	border-bottom:2px dotted green;
+	color: magenta;
+}
