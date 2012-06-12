@@ -1,0 +1,4 @@
+name = unimelb_build
+description = Initial build for Melbourne Uni psychology site
+version = 0.1
+core = 7.x
